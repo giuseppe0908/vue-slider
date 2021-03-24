@@ -8,6 +8,10 @@ var app = new Vue(
         "https://librisognierealta.it/wp-content/uploads/2017/06/Harry-Potter-e-la-camera-dei-segreti-cover-locandina.jpg",
         "https://images-na.ssl-images-amazon.com/images/I/81vteywKEKL._SL1441_.jpg",
         "https://img.ibs.it/images/5051891142718_0_306_0_75.jpg",
+        "https://images-na.ssl-images-amazon.com/images/I/811VtPlOfNL._SL1441_.jpg",
+        "https://images-na.ssl-images-amazon.com/images/I/8126t2PaIVL._SL1441_.jpg",
+        "https://img.ibs.it/images/5051891142695_0_306_0_75.jpg",
+        "https://www.dvd.it/174635-thickbox_default/harry-potter-e-i-doni-della-morte-parte-02-se.jpg",
       ]
     },
       methods:{

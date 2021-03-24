@@ -4,9 +4,16 @@
   border: 0;
   box-sizing: border-box;
 }
+h1{
+  text-align: center;
+  font-family: cursive;
+  font-size: 50px;
+  color: darkslategrey;
+  margin-top: 9px;
+}
 img{
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   /* border: 1px solid black; */
 }
 .conteiner{
@@ -18,6 +25,7 @@ img{
   justify-content: center;
 }
 .contenitore{
+  margin-top: -203px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,16 +42,16 @@ img{
 }
 nav{
   position: absolute;
-  top: 225px;
+  top: 271px;
   display: flex;
-  left:  -348px;
+  left: -478px;
 }
 
 nav i{
   color: grey;
   display: flex;
   margin: 0 10px;
-  /* flex-direction: column; */
+
 }
 .active{
   color: blue;
