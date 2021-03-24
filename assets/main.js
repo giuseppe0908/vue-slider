@@ -25,10 +25,16 @@ var app = new Vue(
           }else {
             this.i = this.img_array.length -1;
           }
-        },
+          },
         dots: function(i){
           this.i = i;
         },
+
+//  Bonus Applicare l'autoplay allo slider:
+// ogni 3 secondi, cambia immagine automaticamente.
+      },
+      created:function () {
+        setInterval(this.next,3000)
       }
   }
 );
