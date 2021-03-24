@@ -10,5 +10,25 @@ var app = new Vue(
         "https://img.ibs.it/images/5051891142718_0_306_0_75.jpg",
       ]
     },
+      methods:{
+        next: function() {
+          // this.i++
+          if (this.i < this.img_array.length -1) {
+            this.i++;
+          }else {
+            this.i =0;
+          }
+        },
+        prev: function(){
+          if (this.i > 0) {
+            this.i--;
+          }else {
+            this.i = this.img_array.length -1;
+          }
+        },
+        dots: function(i){
+          this.i = i;
+        },
+      }
   }
 );

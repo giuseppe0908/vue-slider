@@ -26,3 +26,25 @@ img{
   margin: 0 30px;
   font-size: 40px;
 }
+.frecce:hover , .dot > nav i:hover{
+  cursor: pointer;
+}
+.dot{
+  position: relative;
+}
+nav{
+  position: absolute;
+  top: 225px;
+  display: flex;
+  left:  -348px;
+}
+
+nav i{
+  color: grey;
+  display: flex;
+  margin: 0 10px;
+  /* flex-direction: column; */
+}
+.active{
+  color: blue;
+}

@@ -12,13 +12,21 @@
       <div class="conteiner">
         <div class="contenitore">
          <div class="frecce prev">
-           <i class="fas fa-chevron-left"></i>
+           <i class="fas fa-chevron-left" @click="prev"></i>
          </div>
          <div class="image">
            <img :src="img_array[i]" alt="">
          </div>
          <div class="frecce next">
-           <i class="fas fa-chevron-right"></i>
+           <i class="fas fa-chevron-right" @click="next"></i>
+         </div>
+         <div class="dot">
+           <nav>
+             <i class="fas fa-circle"
+              v-for="dot in img_array.length" @click="dots(dot - 1)"
+              :class="(dot -1 == i) ? 'active' : ''  "
+             ></i>
+           </nav>
          </div>
         </div>
       </div>
